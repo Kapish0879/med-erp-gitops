@@ -30,7 +30,7 @@ spec:
       terminationGracePeriodSeconds: 60
       containers:
         - name: product-service
-          image: 061155112891.dkr.ecr.us-east-1.amazonaws.com/product-service:latest
+          image: 580222437000.dkr.ecr.us-east-1.amazonaws.com/med-erp:product-service-62
           imagePullPolicy: Always
           ports:
             - containerPort: 8082
