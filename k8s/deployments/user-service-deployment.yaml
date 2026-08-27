@@ -27,8 +27,7 @@ spec:
         prometheus.io/scrape: "true"
         prometheus.io/path: "/api/v1/actuator/prometheus"
         prometheus.io/port: "8081"
-    spec:
-      serviceAccountName: default
+    spec:  
       terminationGracePeriodSeconds: 60
       containers:
         - name: user-service
